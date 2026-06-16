@@ -13,10 +13,10 @@ title                    : "Shuo Zhang"
 title_separator          : "-"
 name                     : &name "Shuo Zhang"
 description              : &description "Shuo Zhang's academic homepage"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : "https://llwhitez.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : "https://s7hang.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "llwhiteZ/llwhitez.github.io"
+repository               : "s7hang/s7hang.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -149,7 +149,7 @@ social:
   name                   : "Shuo Zhang" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://scholar.google.com/citations?user=AL3YxaIAAAAJ&hl=en"
-    - "https://github.com/llwhiteZ"
+    - "https://github.com/s7hang"
 
 
 # Analytics

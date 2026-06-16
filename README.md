@@ -5,7 +5,7 @@ Academic homepage built with Jekyll and GitHub Pages.
 Public URL:
 
 ```text
-https://llwhitez.github.io
+https://s7hang.github.io
 ```
 
 Main pages:
