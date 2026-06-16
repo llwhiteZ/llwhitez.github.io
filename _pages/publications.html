@@ -38,7 +38,9 @@ author_profile: true
     {% endif %}
     </h2>
     <p class="publication-authors">{{ post.authors }}</p>
-    <p class="publication-venue">{{ post.year }}{% if post.note %}. {{ post.note }}{% endif %}.</p>
+    {% if post.note %}
+    <p class="publication-venue">{{ post.note }}.</p>
+    {% endif %}
   </article>
 {% endfor %}
 </div>
