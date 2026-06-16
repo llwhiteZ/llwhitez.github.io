@@ -1,20 +1,20 @@
 ---
 layout: archive
-title: "论文"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% include base_path %}
+{% assign publications = site.publications | sort: "date" | reverse %}
 
-这里用于整理论文、预印本、技术报告或其他正式发表成果。每篇论文可以作为一个 Markdown 文件放在 `_publications/` 目录中。
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">也可以访问我的 <a href="{{ site.author.googlescholar }}">Google Scholar 主页</a>。</div>
-{% endif %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% else %}
-  <p>暂无论文条目。添加真实论文后会自动显示在这里。</p>
+{% for post in publications %}
+  <p>
+    {{ post.authors }}.
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}">{{ post.title }}</a>.
+    {% else %}
+      {{ post.title }}.
+    {% endif %}
+    <em>{{ post.venue }}</em>, {{ post.year }}{% if post.note %}. {{ post.note }}{% endif %}.
+  </p>
 {% endfor %}

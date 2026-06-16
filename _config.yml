@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "zh-CN"
+locale                   : "en-US"
 site_theme               : "air" # Currently available options are "default", "air"
 title                    : "Shuo Zhang"
 title_separator          : "-"
 name                     : &name "Shuo Zhang"
-description              : &description "Shuo Zhang 的个人主页、研究成果与简历"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Shuo Zhang's academic homepage"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://llwhitez.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Shuo Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "Renmin University of China. Research interests: algorithmic game theory, mechanism design, information design, and algorithms."
+  bio              : "Graduate student at Renmin University of China"
   location         : "Beijing, China"
   employer         : "Renmin University of China"
   uri              : # URL
@@ -48,7 +48,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "llwhiteZ"
+  github           :
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -221,17 +221,14 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
-    permalink: /:collection/:path/
+    output: false
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
-    permalink: /:collection/:path/
+    output: false
   talks:
-    output: true
-    permalink: /:collection/:path/
+    output: false
 
 
 # These settings control how pages and collections are included in the site
