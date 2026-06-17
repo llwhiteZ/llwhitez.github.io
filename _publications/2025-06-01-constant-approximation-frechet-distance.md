@@ -8,7 +8,7 @@ year: "2025"
 excerpt: "STOC 2025."
 date: 2025-06-01
 venue: "STOC"
-paperurl: "https://arxiv.org/abs/2402.14540"
+paperurl: "https://arxiv.org/abs/2503.12746"
 note: "(Invited to Special Issue)"
 ---
 

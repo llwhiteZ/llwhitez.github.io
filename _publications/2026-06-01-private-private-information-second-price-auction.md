@@ -8,7 +8,7 @@ year: "2026"
 excerpt: "EC 2026."
 date: 2026-06-01
 venue: "EC"
-paperurl: "https://arxiv.org/abs/2505.22673"
+paperurl: "https://arxiv.org/abs/2604.24530"
 ---
 
 This paper studies second-price auctions with private private information.

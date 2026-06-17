@@ -8,7 +8,7 @@ year: "2024"
 excerpt: "WWW 2024."
 date: 2024-05-01
 venue: "WWW"
-paperurl: "https://arxiv.org/abs/2402.16221"
+paperurl: "https://arxiv.org/abs/2402.14540"
 ---
 
 This paper studies truthful item-acquiring mechanisms for reward maximization.
